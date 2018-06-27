@@ -1,0 +1,26 @@
+﻿.sec-4{
+    text-align:center;
+}
+.sec-4 .resume{
+    float:left;
+    margin-top:20px;
+}
+.sec-4 h3{
+    display:inline;
+    color:#777;
+}
+.sec-4 button {
+    border: 2px solid #2DCC70;
+    background-color: #fff;
+    color: #2DCC70;
+    width: 18%;
+    height: 40px;
+    cursor:pointer; 
+    position:relative;
+}
+.sec-4 p{
+    color:#999;
+}
+.sec-4 *{
+    margin-top:20px;
+}

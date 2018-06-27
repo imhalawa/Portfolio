@@ -1,0 +1,92 @@
+@import url('normalize.css');
+@import url('font-awesome-4.6.3/font-awesome-4.6.3/css/font-awesome.min.css');
+@import url('actions.css');
+@import url('header.css');
+@import url('navigator.css');
+@import url('sections.css');
+@import url('footer.css');
+@import url('aboutmrhalawa.css');
+body {
+    height: 5000px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header, nav {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    background-image: url('../src/slider.jpg');
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #252F31;
+    z-index: 5;
+    transform-style: preserve-3d;
+}
+
+.container {
+    /* 1150 x 75 */
+    width: 1150px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+}
+
+.sec-1, .sec-3, .sec-5, .sec-7 {
+    background-color: white;
+}
+
+.sec-2, .sec-4, .sec-6, .sec-8 {
+    background-color: #F2F2F2;
+}
+
+.sec-1 {
+    height: 240px;
+}
+
+.sec-2 {
+    height: 480px;
+}
+
+.sec-3 {
+    height: 420px;
+}
+
+.sec-4 {
+    height: 315px;
+}
+
+.sec-5 {
+    height: 1600px;
+}
+
+.sec-6 {
+    height: 310px;
+}
+
+.sec-7 {
+    height: 1475px;
+}
+
+.sec-8 {
+    height: 800px;
+    background-color: #252F31;
+}
+
+footer {
+    height: 60px;
+    background-color: #191E22;
+}

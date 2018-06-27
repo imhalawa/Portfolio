@@ -1,0 +1,48 @@
+﻿@import url('aboutmrhalawa.css');
+.navigator h3 {
+    margin: 0px;
+    color: white;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+
+    .navigator h3 span {
+        color: #2ECC71;
+    }
+
+.navigator ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0px;
+    top: 25px;
+    float: right;
+}
+
+    .navigator ul li {
+        padding-left: 10px;
+        float: left;
+    }
+
+        .navigator ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px;
+            border: 2px solid white;
+            font-size:16px;
+            font-weight:bold;
+            transition:all linear 1s;
+           
+        }
+
+        .navigator ul li:first-of-type a {
+            color: #2CB576;
+        }
+        .navigator ul li:first-of-type a:hover{
+                transition: all linear 0.3s;
+                color:white;
+    background-color: rgba(67, 161, 138, 0.66);
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px rgba(231, 233, 15, 0.86);
+    box-shadow: 5px 5px 10px 5px #000;
+        }

@@ -1,0 +1,106 @@
+﻿.social-media {
+    float: left;
+    position: relative;
+    top: 17px;
+    left: 10px;
+    margin-left: 5px;
+    height: 37px;
+    transform-style: preserve-3d;
+    perspective: 400px;
+}
+
+    .social-media img {
+        width: 37px;
+        height: 37px;
+    }
+
+    .social-media a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        position: relative;
+        top: -10px;
+        text-overflow: ellipsis;
+    }
+
+.facebook {
+    width: 37px;
+    background-color: rgba(59, 89, 152,0.4);
+    border-radius: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    /* Animations */
+    transition: all ease-in 0.7s;
+    animation: beVisible 1s ease 1 both;
+    /* Visibility*/
+    opacity: 0;
+    visibility: hidden;
+}
+
+.twitter {
+    width: 37px;
+    background-color: rgba(0, 172, 237,.5);
+    border-radius: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    /* Animations */
+    transition: all ease-in 0.7s;
+    animation: beVisible 1s ease 1 both;
+    /* Visibility*/
+    opacity: 0;
+    visibility: hidden;
+}
+
+    .twitter:hover {
+        transition: all ease-out 0.3s;
+        border-radius: 10px;
+        width: 180px;
+    }
+/*{facebook hover*/
+.facebook:hover {
+    transition: all ease-out 0.3s;
+    border-radius: 10px;
+    width: 170px;
+}
+
+/*facebook hover}*/
+@keyframes beVisible {
+    0% {
+        visibility: visible;
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.50;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+/*.twitter:hover {
+        transform:skewY(10deg) rotateY(-45deg);
+        box-shadow:2px 2px 15px 2px #ffd800;
+        border-radius:20px;
+    }
+    .facebook:hover{
+                transform:skewY(-10deg) rotateY(45deg);
+                      box-shadow:2px 2px 10px 2px #ffd800;
+  border-radius:20px;
+    }*/

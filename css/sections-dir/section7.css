@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.sec-7 .mid {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+    .sec-7 .mid h3 {
+        color: #777;
+    }
+
+    .sec-7 .mid p {
+        color: #999;
+        margin-bottom: 50px;
+    }
+
+    .sec-7 .mid .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: absolute;
+    }
+
+        .sec-7 .mid .gallery div {
+            margin: 15px 5px 15px 5px;
+            border: 1px solid #808080;
+            width: 370px;
+            height: 370px;
+        }
+
+            .sec-7 .mid .gallery div img {
+                width: 360px;
+                height: 360px;
+                margin-top: 3.5px;
+            }

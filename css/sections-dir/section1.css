@@ -1,0 +1,25 @@
+.sec-1 {
+    overflow: hidden;
+}
+
+    .sec-1 article {
+        width: 30%;
+        float: left;
+        word-break: break-all;
+        position: relative;
+        margin: 30px 0 0 50px;
+        font-family: Arial;
+    }
+
+        .sec-1 article:first-of-type {
+            margin: 30px 0 0 0;
+        }
+
+        .sec-1 article h3 {
+            font-size: 26px;
+            color: #999;
+        }
+
+        .sec-1 article p {
+            color: #888;
+        }
